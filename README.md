@@ -15,7 +15,7 @@ Then I added two files to staging area and commited only one out of those two as
 git add --a
 git commit -m ""
 ~~~
-##ignore them
+## ignore them
 Created a .gitignore file and added all the files in it that need to be ignored. ( * for extensions). Commited all the changes.
 ~~~
 touch .gitignore
@@ -29,7 +29,7 @@ git merge
 git add
 git commit
 ~~~
-##merge conflict
+## merge conflict
 To solve the merge conflict, I edited the .txt file and then merged.
 ~~~
 git merge
@@ -43,7 +43,7 @@ First I saved the current work using git stash, fixed the big in bug.txt, stash 
 git stash
 git stash pop
 ~~~
-##remove ignored
+## remove ignored
 for next exercise, I simply removed ignored.txt using rm from repository
 ~~~
 rm ignored.txt
@@ -53,23 +53,23 @@ Simply renamed the file (I have mac)
 ~~~
 rename File.txt file.txt
 ~~~
-##fix typo
+## fix typo
 first I changed the typo in the file using vim 
 ~~~
 vim file
 ~~~
 Then I added and commited the previous file.
-##change branch history
+## change branch history
 Rebased the branch 
 ~~~
 git rebase
 ~~~
-##fix old typo
+## fix old typo
 First i rebased in interactive environment so that I can edit any commit. Then i edited my file, added , commited and continued rebase. edited file to resolve conflict and added commits.
 ~~~
 git rebase -i
 ~~~
-##forge date
+## forge date
 used git commit --amend
 ~~~
 git commit --amend  --date="1987-08-03"
